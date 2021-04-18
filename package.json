@@ -1,0 +1,28 @@
+{
+  "name": "chefbuddy",
+  "description": "This web-buddy for chef is buggy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd Client&&npm start",
+    "server": "cd Server && npm run server",
+    "install-all": "npm i&&npm run i-server&&npm run i-client",
+    "i-server": "cd Server&&npm i",
+    "i-client": "cd Client&&npm i",
+    "dev": "concurrently -n 'backend,frontend' -c 'red,green' \"npm run server \" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Equinox-IIIT-Lucknow/chefbuddy-frontend.git"
+  },
+  "author": "Moin and Harshit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Equinox-IIIT-Lucknow/chefbuddy-frontend/issues"
+  },
+  "homepage": "https://github.com/Equinox-IIIT-Lucknow/chefbuddy-frontend#readme",
+  "dependencies": {
+    "concurrently": "^6.0.2"
+  }
+}
