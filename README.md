@@ -1,5 +1,6 @@
 # chefbuddy
-This web-buddy for chef is buggy
+This web-buddy for chef is buggy  
+`Submission Guidelines :-` [Click here](https://docs.google.com/document/d/1_fZRZyV5a2AkA2Xnpa8YwCEpFBnAnlXYqYHcXVok_Uo/edit?ts=607bb05b)
 
 This projects requires node to be installed on your system. [Download](https://nodejs.org/en/download/)
 
